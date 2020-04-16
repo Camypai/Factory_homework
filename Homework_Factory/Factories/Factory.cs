@@ -4,7 +4,7 @@ namespace Homework_Factory.Factories
 {
     public abstract class Factory
     {
-        public abstract IGeometryObject FactoryMethod();
+        protected abstract IGeometryObject FactoryMethod();
 
         public string CreateGeometryObject()
         {

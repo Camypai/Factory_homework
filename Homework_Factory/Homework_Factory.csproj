@@ -41,6 +41,7 @@
         <Compile Include="Factories\CircleFactory.cs" />
         <Compile Include="Factories\Factory.cs" />
         <Compile Include="Factories\TriangleFactory.cs" />
+        <Compile Include="GeometryObjectsClient.cs" />
         <Compile Include="GeometryObjects\Circle.cs" />
         <Compile Include="GeometryObjects\Triangle.cs" />
         <Compile Include="Interfaces\IGeometryObject.cs" />
