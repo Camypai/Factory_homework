@@ -38,12 +38,7 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Factories\CircleFactory.cs" />
         <Compile Include="Factories\Factory.cs" />
-        <Compile Include="Factories\TriangleFactory.cs" />
-        <Compile Include="GeometryObjects\Circle.cs" />
-        <Compile Include="GeometryObjects\Triangle.cs" />
-        <Compile Include="Interfaces\IGeometryObject.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
